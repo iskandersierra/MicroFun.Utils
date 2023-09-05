@@ -1,4 +1,12 @@
-﻿namespace MicroFun.Utils;
+namespace MicroFun.Utils;
+
+public enum ByteEncoding
+{
+    HexUpper,
+    HexLower,
+    Base64,
+    Base64Unpadded,
+}
 
 public static class ByteEncodingExtensions
 {

@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 
 namespace MicroFun.Utils;
 
@@ -8,14 +8,6 @@ public class RandInput
     public int MaxLength { get; set; }
 
     public ByteEncoding ByteEncoding { get; set; }
-}
-
-public enum ByteEncoding
-{
-    HexUpper,
-    HexLower,
-    Base64,
-    Base64Unpadded,
 }
 
 public class RandOutput : ITableOutput

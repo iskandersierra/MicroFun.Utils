@@ -1,4 +1,5 @@
-﻿using Spectre.Console;
+using CsvHelper;
+using Spectre.Console;
 using Spectre.Console.Cli;
 using Spectre.Console.Json;
 using System.ComponentModel;
@@ -6,11 +7,8 @@ using System.Globalization;
 using System.Text.Json;
 using System.Xml;
 using System.Xml.Serialization;
-using CsvHelper;
-using YamlDotNet;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
-using System.Reflection.PortableExecutable;
 
 namespace MicroFun.Utils.Commands;
 
